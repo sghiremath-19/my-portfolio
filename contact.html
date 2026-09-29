@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact | My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Sandesh G Hiremath</h1>
+        <p> I am an aspiring <em><strong>system designer</strong></em></p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About</a>
+            <a href="project.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <main>
+        <br>
+        <br>
+
+       
+        <section id="card1">
+             <h2 id="done">Contact</h2>
+
+            <form>
+                <fieldset>
+                    <legend><strong>Your details</strong></legend>
+                    <label for="name"><strong>Your Name</strong></label>
+                    <input type="text" id="name" name="name" placeholder="enter your name. Ex:Jhony" required minlength="3" maxlength="20">
+                    <br>
+                    <label for="email"><strong>Your Email</strong></label>
+                    <input type="email" id="email" name="email" placeholder=" email. Ex:yyyyy@gmail.com" required>
+                </fieldset>
+                <fieldset>
+                    <legend><strong>your message</strong></legend>
+                    <label for="reason"><strong>Why to reach out?</strong></label>
+                    <select id="reason" name="reason" required>
+                        <option value="job">Job opportunity</option>
+                        <option value="intern">Internship</option>
+                        <option value="ent'nt">Entertainment</option>
+                    </select>
+                    <label for="write"><strong>message</strong></label>
+                    <textarea id="write" name="write" placeholder="type here your feedback" rows="2"
+                        cols="20"></textarea>
+                    <button type="submit">Send</button>
+
+                </fieldset>
+                <br>
+                <label for="pwd"><strong>Your password</strong></label>
+                <input type="password" id="pwd" name="pwd" placeholder="enter your password." >
+                <br>
+                <label for="phone_No"><strong>Your Mobile No</strong></label>
+                <input type="tel" id="phone_No" name="Phone_No" placeholder="enter your telephone No" >
+                <br>
+                <label for="Date"><strong>Enter date</strong></label>
+                <input type="date" id="Date" name="Date" placeholder="enter todays date" >
+                <br>
+                <label for="Nom"><strong>Number</strong></label>
+                <input type="number" id="Nom" name="Nom" placeholder="enter the Number" >
+                <br>
+                <label for="check"><strong>tick the checkbox</strong></label>
+                <input type="checkbox" id="check" name="check" >
+                <br>
+                <small>choose out of the following:</small>
+
+                <label for="choose"><strong>yes</strong></label>
+                <input type="radio" id="choose" name="choose" value="yes" >
+                <label for="choose"><strong>no</strong></label>
+                <input type="radio" id="choose" name="choose" value="no" >
+                <label for="choose"><strong>yehaaa</strong></label>
+                <input type="radio" id="choose" name="choose" value="yehha" >
+                <label for="choose"><strong>nhaa</strong></label>
+                <input type="radio" id="choose" name="choose" value="nhaa" >
+                <br>
+
+                <br>
+
+            </form>
+        </section>
+        <section id="short">
+            <p> contact Sandesh<br>Email:- sandesh.hiremath@thesiu.in<br>Mobile No:- 81977 92xxx</p>
+        </section>
+        <br>
+
+    </main>
+    <br>
+    <hr>
+    <br>
+    <footer>
+        <p>&copy;Contact:sandesh.hiremath@thesiu.in <br> <strong>or<br> Press below</strong></p>
+        <a href="mailto:sandesh.hiremath@thesiu.in"><button  class="contact-btn"><strong>Contact me</strong></button> </a>
+    </footer>
+
+</body>
+
+</html>
